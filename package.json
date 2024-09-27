@@ -1,0 +1,33 @@
+{
+  "name": "ts-ez-api",
+  "version": "1.0.3",
+  "description": "easy to create and use typescript api schema and api consumer",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "npm run test",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theobourgeois/EzApi.git"
+  },
+  "keywords": [
+    "api",
+    "typecript"
+  ],
+  "author": "Theo Bourgeois",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theobourgeois/EzApi/issues"
+  },
+  "homepage": "https://github.com/theobourgeois/EzApi#readme",
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "zod": "^3.23.8"
+  }
+}
